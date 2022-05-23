@@ -1,4 +1,4 @@
-name: model-training
+name: docker and dvc demo
 on: [push]
 jobs:
   run:

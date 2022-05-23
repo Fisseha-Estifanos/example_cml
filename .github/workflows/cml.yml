@@ -16,7 +16,8 @@ jobs:
 
           cat metrics.txt >> report.md
           cml publish plot.png --md >> report.md
-          cat 'something new' >> report.md
+          cat something.txt >> 'some message'
+          cat something.txt >> report.md
           cml send-comment report.md
 
           cat metrics.txt >> README.md
